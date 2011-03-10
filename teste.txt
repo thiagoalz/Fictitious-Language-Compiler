@@ -1,0 +1,85 @@
+/*comentario
+de
+varias
+linhas*/
+
+//constantes 
+CONSTANTE
+	vr=verdadeiro;
+	fa=falso;
+
+//variaveis globais
+DECLARE
+	var1,var2:logico;
+	x,y,z:Inteiro;
+	carac:caracter;
+	w,j:Vetor[0..5] de caracter;
+
+
+//uma Funcao com parametros
+FUNCAO funcfeliz(feliz,hapy:caracter;): logico
+INICIO
+	escreva(feliz);
+	
+	se nao(var1) entao
+	INICIO
+		escreva('legal',x);
+		x<-x+1;
+	FIM;
+
+	enquanto  z<>5 faca
+		y<-y+1;
+FIM
+
+
+//um procedimento com variaveis internas
+PROCEDIMENTO proctriste
+DECLARE
+	triste:inteiro;
+	chato:real;
+INICIO
+
+	para triste de 0 ate 10 faca
+	INICIO
+		escreva('QUE LEGAL');
+	FIM;
+	///////
+	repita 
+		escreva('Joao eh fraco')
+	ate (x<y);
+	triste<-23;
+FIM
+
+//inicio MAIN
+INICIO
+	leia(x);
+	escreva('2222',x);
+
+	se (z<>y)entao
+	INICIO
+		escreva('LEGAL');
+	FIM
+	SENAO
+	INICIO
+		escreva('LEGAL TAMBEM');
+	FIM;
+
+	////////testes SEMANTICOS
+
+	//x<-verdadeiro;
+	//x<-'OI';
+	//var1<-2+4;
+
+	//x[0]<-'oi';
+	
+	//var1<-funcfeliz(carac,x);
+
+	//fa<-falso;
+
+	proctriste;
+	//proctrist;
+	
+	//triste<-23;	
+	////////////////////////////////////////////
+
+FIM
